@@ -1,6 +1,66 @@
-juan jose torregrosa torres 
-dana valentina rosas huertas
-mauro alejandro montiel sanchez
-tomas camilo parra cuervo 
-carlos felipe pineda ramirez
-juan sebastian carvajal pesca
+-juan jose torregrosa torres
+
+Registrar usuarios
+
+Seleccionar el rol de entrenador, deportista o amateur
+
+Consultar y actualizar el perfil
+
+Publicar propuestas.
+
+
+-dana valentina rosas huertas
+
+Consultar información sobre el deporte de interés.
+
+publicar ideas
+
+Consultar canchas o lugares para practicar.
+
+Mostrar la disponibilidad registrada.
+
+
+-mauro alejandro montiel sanchez
+
+Buscar personas con nivel de competitividad similar.
+
+Encontrar personas con gustos y condiciones de práctica similares.
+
+Considerar zona, horarios y disponibilidad.
+
+Consultar estadísticas del usuario.
+
+
+
+-tomas camilo parra cuervo 
+
+Consultar estadísticas a lo largo de una temporada
+
+Consultar torneos o campeonatos.
+
+Recomendar actividades según la zona.
+
+Considerar el nivel de juego para las recomendaciones.
+
+
+
+-carlos felipe pineda ramirez
+
+Registrar zona, gustos, horarios y disponibilidad
+
+Permitir el acceso gratuito a la información deportiva.
+
+Publicar invitaciones deportivas.
+
+Facilitar la interacción entre usuarios.
+
+
+-juan sebastian carvajal pesca
+
+Diferenciar entrenador, deportista y amateur.
+
+Asociar cada perfil con el rol seleccionado.
+
+hacer pruebas 
+
+despliegue 
