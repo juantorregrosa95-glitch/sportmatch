@@ -50,7 +50,7 @@ Registrar zona, gustos, horarios y disponibilidad
 
 Permitir el acceso gratuito a la información deportiva.
 
-Publicar invitaciones deportivas.
+verificacion de usuarios (login)
 
 Facilitar la interacción entre usuarios.
 
