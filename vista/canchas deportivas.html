@@ -11,8 +11,7 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+  <link    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
     rel="stylesheet">
   <style>
     @layer base {
@@ -67,19 +66,18 @@
   </style>
 </head>
 
-<body class="bg-surface font-body-md text-on-surface antialiased flex flex-col min-h-screen">
+<body>
+    <div class="bg-surface font-body-md text-on-surface antialiased flex flex-col min-h-screen"></div>
   <header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_12px_rgba(0,0,0,0.4)] pt-safe">
     <div class="h-16 px-gutter flex items-center justify-between">
-      <div class="flex items-center gap-space-sm"><img alt="SPORTMACH Logo" class="h-8 w-auto object-contain"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCTz25dMKqzEpBwD5_hn8UIJlqqk4aqRH_TIgl2xz6XGR6WRMfs91HBwbykyTBdFLMqY6BgX1-tnRcu3xL3bCxcEvVACA77jy6_VWcWmyEhqVRfggrx02mbpHzWOvItTPWH-sYOguTDrTr1UeZYbum0ZscxrglUq4h02fP1QVUnxjY0Hudf66snwUfEATslEkjvZntZa_ZzVznC4Jk9QM1vGY5iimo_Eq4ZPLDG8Oa9vb7cpVoIher">
-        <div class="flex flex-col"><span
-            class="font-headline-sm text-headline-sm tracking-tight text-on-surface font-bold">SPORTMACH</span><span
+      <div class="flex items-center gap-space-sm"><img alt="SPORTMACH Logo" class="h-8 w-auto object-contain"          src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCTz25dMKqzEpBwD5_hn8UIJlqqk4aqRH_TIgl2xz6XGR6WRMfs91HBwbykyTBdFLMqY6BgX1-tnRcu3xL3bCxcEvVACA77jy6_VWcWmyEhqVRfggrx02mbpHzWOvItTPWH-sYOguTDrTr1UeZYbum0ZscxrglUq4h02fP1QVUnxjY0Hudf66snwUfEATslEkjvZntZa_ZzVznC4Jk9QM1vGY5iimo_Eq4ZPLDG8Oa9vb7cpVoIher">
+        <div class="flex flex-col"><span            class="font-headline-sm text-headline-sm tracking-tight text-on-surface font-bold">SPORTMACH</span><span
             class="font-label-sm text-label-sm text-primary tracking-wider uppercase font-semibold">Canchas</span></div>
       </div>
       <div class="flex items-center gap-space-xs"><button aria-label="Notificaciones"
           class="w-11 h-11 rounded-full flex items-center justify-center text-on-surface-variant hover:text-primary active:scale-95 transition-all"><span
-            class="material-symbols-outlined text-[22px]">notifications</span></button><a
-          class="w-11 h-11 flex items-center justify-center" data-path="perfil-de-usuario" href="#"><img alt="Profile"
+            class="material-symbols-outlined text-[22px]">notifications</span></button><a>
+       <div    class="w-11 h-11 flex items-center justify-center" data-path="perfil-de-usuario" href="#"><img alt="Profile"
             class="w-8 h-8 rounded-full object-cover ring-2 ring-primary/40 hover:ring-primary transition-all"
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjtehC7ggh-9bOgIAhoP02ReDQaszUNcPL6XaGWzMpkTSNpGeTp4kcLwlsgV44F-EOmvRKdaec2jFHfYZa1BfZyDAFd7Czo7nTcK1dPaNZCOuZR7LcfauEBhgERZDowPi8KO6Ka10FbNn7kMkowfMaKCrK1oSmXzrMg-aIFblzSK2tzl0iOp7XXNDmveuEvpCInkPQE08ftljBgFN8n9Gw0lw0JAKlQe7bneH2K8g"></a>
       </div>
@@ -90,13 +88,13 @@
       <!-- Search & Tactical Geo HUD -->
       <div class="px-gutter pt-2 pb-3">
         <div class="relative flex items-center bg-surface-container-high rounded-xl px-space-md py-2.5 shadow-md">
-          <span class="material-symbols-outlined text-primary text-[22px] mr-2.5">search</span>
-          <input
-            class="bg-transparent font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant/60 focus:outline-none w-full min-w-0"
-            placeholder="Buscar pistas, clubes o zonas..." type="text">
-          <button aria-label="Filtros avanzados"
-            class="flex items-center justify-center w-8 h-8 rounded-lg bg-surface-container text-secondary hover:text-primary transition-colors">
-            <span class="material-symbols-outlined text-[18px]">tune</span>
+          <span class="material-symbols-outlined text-primary text-[22px] mr-2.5"><search></span>
+          <input>
+            <div class="bg-transparent font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant/60 focus:outline-none w-full min-w-0"
+            placeholder="Buscar pistas, clubes o zonas..." type="text"> </div>
+          <button aria-label="Filtros avanzados">
+            <div class="flex items-center justify-center w-8 h-8 rounded-lg bg-surface-container text-secondary hover:text-primary transition-colors">
+            <span> class="material-symbols-outlined text-[18px]">tune</span>
           </button>
         </div>
         <!-- Geo Radian Quick Bar -->
@@ -148,27 +146,22 @@
       </div>
       <!-- Interactive Map View Overlay (Collapsible container) -->
       <div class="hidden px-gutter mt-3" id="interactive-map-panel">
-        <div class="relative w-full h-56 rounded-2xl overflow-hidden shadow-xl"
-          data-location="Polideportivo Kinetic Madrid">
-          <div
-            class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent z-10 pointer-events-none">
+        <div class="relative w-full h-56 rounded-2xl overflow-hidden shadow-xl"          data-location="Polideportivo Kinetic Madrid">
+          <div            class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent z-10 pointer-events-none">
           </div>
           <!-- Tactile Map Pins -->
           <div class="absolute top-8 left-12 z-20 flex flex-col items-center">
-            <span
-              class="px-2 py-0.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-bold shadow-[0_0_10px_rgba(111,255,154,0.7)] animate-pulse">Arena
+            <span              class="px-2 py-0.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-bold shadow-[0_0_10px_rgba(111,255,154,0.7)] animate-pulse">Arena
               Central</span>
             <span class="material-symbols-outlined text-primary text-[28px] drop-shadow-md">location_on</span>
           </div>
           <div class="absolute top-16 right-16 z-20 flex flex-col items-center">
-            <span
-              class="px-2 py-0.5 rounded-full bg-tertiary-container text-on-tertiary font-label-sm text-label-sm font-bold shadow-sm">Los
-              Sauces</span>
+            <span             class="px-2 py-0.5 rounded-full bg-tertiary-container text-on-tertiary font-label-sm text-label-sm font-bold shadow-sm">Los  Sauces</span>           
             <span class="material-symbols-outlined text-tertiary-fixed-dim text-[24px]">location_on</span>
           </div>
           <div class="absolute bottom-6 left-28 z-20 flex flex-col items-center">
-            <span
-              class="px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface font-label-sm text-label-sm font-semibold">Park
+            <span>
+            <div     class="px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface font-label-sm text-label-sm font-semibold">Park
               Norte</span>
             <span class="material-symbols-outlined text-secondary text-[24px]">location_on</span>
           </div>
@@ -190,29 +183,25 @@
           <span class="font-label-sm text-label-sm text-on-surface-variant">3 complejos abiertos</span>
         </div>
         <!-- CANCHA 1: Club Kinetic Padel Arena -->
-        <article
-          class="bg-surface-container rounded-2xl overflow-hidden shadow-lg flex flex-col group hover:shadow-[0_8px_30px_rgba(111,255,154,0.15)] transition-all">
-          <div class="relative h-44 w-full"><img class="w-full h-full object-cover"
-              data-alt="Modern indoor basketball court and futsal court with varnished wooden parquet FIBA floor, professional hoops and goals with LED spotlights"
+        <article>
+         <div class="bg-surface-container rounded-2xl overflow-hidden shadow-lg flex flex-col group hover:shadow-[0_8px_30px_rgba(111,255,154,0.15)] transition-all"> </div>
+          <div class="relative h-44 w-full"><img class="w-full h-full object-cover"              data-alt="Modern indoor basketball court and futsal court with varnished wooden parquet FIBA floor, professional hoops and goals with LED spotlights"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqAHqVrdCEqWFAuwX9WQ_JV35jsMrS9CQkry_nOfqOHLXzBi4KJ5B7vKfHHoZAgUWFbtjmNcsXjaKVz0vw6v-pdZijg8ovhkCDizydGIKhhObBqpMSxUCXktVVsLf8zX7gd0suWtBBP8_H97ACT6WbEp0rJUGYe2L59IGGRZk-RY_e94xVkHiUoupETUOlbOv_JL4f1fI8UHJfbDbAoZ9b184BoyEUT2l0TLTmTs8">
-            <div
-              class="absolute inset-0 bg-gradient-to-t from-surface-container via-surface-container/20 to-transparent">
+          </div>
+              <div class="absolute inset-0 bg-gradient-to-t from-surface-container via-surface-container/20 to-transparent">
             </div>
             <div
               class="absolute top-3 left-3 flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md">
-              <span class="w-2 h-2 rounded-full bg-primary animate-ping"></span><span
-                class="w-2 h-2 rounded-full bg-primary -ml-3.5"></span><span
-                class="font-label-sm text-label-sm text-primary font-bold">2 pistas disponibles hoy</span></div>
+              <span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+              <span class="w-2 h-2 rounded-full bg-primary -ml-3.5"></span>
+              <span class="font-label-sm text-label-sm text-primary font-bold">2 pistas disponibles hoy</span></div>
             <div
               class="absolute top-3 right-3 flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-lowest/85 backdrop-blur-md">
-              <span class="material-symbols-outlined text-[14px] text-tertiary-fixed-dim"
-                style="font-variation-settings: 'FILL' 1;">star</span><span
-                class="font-label-md text-label-md text-on-surface font-bold">4.9</span><span
-                class="font-label-sm text-label-sm text-on-surface-variant">(148)</span></div>
-            <div
-              class="absolute bottom-2 left-3 flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
-              <span class="material-symbols-outlined text-[15px] text-secondary">distance</span><span class="">1.2 km de
-                distancia</span></div>
+              <span class="material-symbols-outlined text-[14px] text-tertiary-fixed-dim"  style="font-variation-settings: 'FILL' 1;">star</span>
+              <span class="font-label-md text-label-md text-on-surface font-bold">4.9</span>
+              <span class="font-label-sm text-label-sm text-on-surface-variant">(148)</span>  </div>
+            <div class="absolute bottom-2 left-3 flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+              <span class="material-symbols-outlined text-[15px] text-secondary">distance</span><span class="">1.2 km de distancia</span></div>
           </div>
           <div class="p-space-md flex flex-col gap-3">
             <div class="flex items-start justify-between gap-2">
@@ -246,107 +235,79 @@
         <!-- CANCHA 2: Metropolitan Sport Center -->
         <article
           class="bg-surface-container rounded-2xl overflow-hidden shadow-lg flex flex-col group hover:shadow-[0_8px_30px_rgba(76,215,246,0.15)] transition-all">
-          <div class="relative h-44 w-full"><img class="w-full h-full object-cover"
-              data-alt="Covered indoor municipal sports court with markings for indoor futsal and 5v5 basketball, professional scoreboard and stands"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBln3-tfK2Fj2pUgYZD7Gc7pgsUjkZP1GdCQTSYkPg_qynD6XN8ZLvcnLZ9h8Mi3pC5DiuiqW9ryEO1O4L7ByTKECDEdY0T_ar2zzlFbkKbE2uUN15zwT7KqBYINdAtKfgcfWQtgcZHV9cbk3ITuasf7Es_9F3GyKMJh2abdOuszkWjMtRVBfgLL29EmI0I2EbywOjV5HfXkQurwIcpw07uccy6T-QbmIN4pomhWM8">
-            <div
-              class="absolute inset-0 bg-gradient-to-t from-surface-container via-surface-container/20 to-transparent">
+          <div class="relative h-44 w-full"><img class="w-full h-full object-cover"data-alt="Covered indoor municipal sports court with markings for indoor futsal and 5v5 basketball, professional scoreboard and stands"src="https://lh3.googleusercontent.com/aida-public/AB6AXuBln3-tfK2Fj2pUgYZD7Gc7pgsUjkZP1GdCQTSYkPg_qynD6XN8ZLvcnLZ9h8Mi3pC5DiuiqW9ryEO1O4L7ByTKECDEdY0T_ar2zzlFbkKbE2uUN15zwT7KqBYINdAtKfgcfWQtgcZHV9cbk3ITuasf7Es_9F3GyKMJh2abdOuszkWjMtRVBfgLL29EmI0I2EbywOjV5HfXkQurwIcpw07uccy6T-QbmIN4pomhWM8"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-surface-container via-surface-container/20 to-transparent">
             </div>
-            <div
-              class="absolute top-3 left-3 flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md">
-              <span class="w-2 h-2 rounded-full bg-tertiary-container animate-pulse"></span><span
-                class="font-label-sm text-label-sm text-tertiary font-bold">Últimos 2 turnos hoy</span></div>
-            <div
-              class="absolute top-3 right-3 flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-lowest/85 backdrop-blur-md">
-              <span class="material-symbols-outlined text-[14px] text-tertiary-fixed-dim"
-                style="font-variation-settings: 'FILL' 1;">star</span><span
-                class="font-label-md text-label-md text-on-surface font-bold">4.7</span><span
-                class="font-label-sm text-label-sm text-on-surface-variant">(112)</span></div>
-            <div
-              class="absolute bottom-2 left-3 flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
-              <span class="material-symbols-outlined text-[15px] text-secondary">distance</span><span class="">2.8 km de
-                distancia</span></div>
+            <div class="absolute top-3 left-3 flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md">
+              <span class="w-2 h-2 rounded-full bg-tertiary-container animate-pulse"></span>
+              <span class="font-label-sm text-label-sm text-tertiary font-bold">Últimos 2 turnos hoy</span></div>
+            <div class="absolute top-3 right-3 flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-lowest/85 backdrop-blur-md">
+              <span class="material-symbols-outlined text-[14px] text-tertiary-fixed-dim"style="font-variation-settings: 'FILL' 1;">star</span>
+              <span class="font-label-md text-label-md text-on-surface font-bold">4.7</span>
+              <span class="font-label-sm text-label-sm text-on-surface-variant">(112)</span>
+            </div>
+            <div class="absolute bottom-2 left-3 flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+              <span class="material-symbols-outlined text-[15px] text-secondary">distance</span><span class="">2.8 km de  distancia</span></div>
           </div>
-          <div class="p-space-md flex flex-col gap-3">
-            <div class="flex items-start justify-between gap-2">
-              <div>
-                <h3
-                  class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-secondary transition-colors">
-                  Polideportivo Municipal Los Sauces</h3>
-                <p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Cancha techada polivalente · Futsal
-                  &amp; Básquetbol 5v5</p>
+          <div class="p-space-md flex flex-col gap-3"></div>
+            <div class="flex items-start justify-between gap-2"></div>
+                <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-secondary transition-colors"Polideportivo Municipal Los Sauces></h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5"Cancha techada polivalente> · Futsal &amp; Básquetbol 5v5</p>
               </div>
-              <div class="text-right shrink-0"><span
-                  class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wider">Tarifa</span><span
-                  class="font-headline-sm text-headline-sm text-secondary font-bold">24€<span
-                    class="text-body-sm text-on-surface-variant font-normal">/h</span></span></div>
+              <div class="text-right shrink-0">
+                <span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wider">Tarifa</span>
+                <span class="font-headline-sm text-headline-sm text-secondary font-bold">24€
+                <span   class="text-body-sm text-on-surface-variant font-normal">/h</span></span></div>
             </div>
-            <div class="flex flex-wrap gap-1.5"><span
-                class="px-2.5 py-0.5 rounded-full bg-surface-container-high font-label-sm text-label-sm text-on-surface">Pista
-                Techada</span><span
-                class="px-2.5 py-0.5 rounded-full bg-surface-container-high font-label-sm text-label-sm text-on-surface">Futsal
-                Reglam.</span><span
-                class="px-2.5 py-0.5 rounded-full bg-surface-container-high font-label-sm text-label-sm text-on-surface">Básquet
-                5v5</span></div>
-            <div class="flex items-center gap-2 pt-1"><button
-                class="flex-1 h-12 rounded-full bg-secondary text-on-secondary font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 shadow-[0_0_16px_rgba(76,215,246,0.35)] active:scale-95 transition-all"><span
-                  class="material-symbols-outlined text-[20px]">bolt</span><span class="">Reservar Últimos
-                  Turnos</span></button><button aria-label="Guardar favorito"
-                class="w-12 h-12 rounded-full bg-surface-container-high text-secondary hover:text-primary flex items-center justify-center active:scale-95 transition-all"><span
-                  class="material-symbols-outlined text-[20px]">bookmark_border</span></button></div>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2.5 py-0.5 rounded-full bg-surface-container-high font-label-sm text-label-sm text-on-surface">Pista Techada</span>
+              <span class="px-2.5 py-0.5 rounded-full bg-surface-container-high font-label-sm text-label-sm text-on-surface">Futsal Reglam.</span>
+              <span class="px-2.5 py-0.5 rounded-full bg-surface-container-high font-label-sm text-label-sm text-on-surface">Básquet 5v5</span></div>
+            <div class="flex items-center gap-2 pt-1">
+              <button class="flex-1 h-12 rounded-full bg-secondary text-on-secondary font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 shadow-[0_0_16px_rgba(76,215,246,0.35)] active:scale-95 transition-all">
+                <span class="material-symbols-outlined text-[20px]">bolt</span><span class="">Reservar Últimos Turnos</span></button>
+                <button aria-label="Guardar favorito"class="w-12 h-12 rounded-full bg-surface-container-high text-secondary hover:text-primary flex items-center justify-center active:scale-95 transition-all">
+                  <span class="material-symbols-outlined text-[20px]">bookmark_border</span></button></div>
           </div>
         </article>
         <!-- CANCHA 3: Polideportivo Los Álamos -->
         <article
           class="bg-surface-container rounded-2xl overflow-hidden shadow-lg flex flex-col group hover:shadow-[0_8px_30px_rgba(111,255,154,0.1)] transition-all">
-          <div class="relative h-44 w-full"><img class="w-full h-full object-cover"
-              data-alt="Outdoor urban streetball court with basketball hoops and outdoor fast futsal pitch illuminated with evening floodlights"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzzaoTHGh0LGX8ua0vj_pMyVbL29vm1eVHsndNTN7kmzf3ACJqIQSq7DFw6AWn95qrKePbkz9ptQ88x0meiyBS6mHb4M078Zhsd8wZx_w6JHM5JGE66ibjCHlb8FsBt9jg_QjA_LBI-Ia7hrldqDEbnYVe5loxbCPbqPJZRIm948WYqpDRUY54UnQ6gFz9x4nkGMCRXfvLUSFmb76ieD5W_CZAn-nG2xlTBu57VLo">
-            <div
-              class="absolute inset-0 bg-gradient-to-t from-surface-container via-surface-container/20 to-transparent">
+          <div class="relative h-44 w-full"><img class="w-full h-full object-cover"data-alt="Outdoor urban streetball court with basketball hoops and outdoor fast futsal pitch illuminated with evening floodlights"src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzzaoTHGh0LGX8ua0vj_pMyVbL29vm1eVHsndNTN7kmzf3ACJqIQSq7DFw6AWn95qrKePbkz9ptQ88x0meiyBS6mHb4M078Zhsd8wZx_w6JHM5JGE66ibjCHlb8FsBt9jg_QjA_LBI-Ia7hrldqDEbnYVe5loxbCPbqPJZRIm948WYqpDRUY54UnQ6gFz9x4nkGMCRXfvLUSFmb76ieD5W_CZAn-nG2xlTBu57VLo">
+            <div class="absolute inset-0 bg-gradient-to-t from-surface-container via-surface-container/20 to-transparent">
             </div>
-            <div
-              class="absolute top-3 left-3 flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md">
-              <span class="w-2 h-2 rounded-full bg-primary"></span><span
-                class="font-label-sm text-label-sm text-primary font-bold">Turnos libres tarde y noche</span></div>
-            <div
-              class="absolute top-3 right-3 flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-lowest/85 backdrop-blur-md">
-              <span class="material-symbols-outlined text-[14px] text-tertiary-fixed-dim"
-                style="font-variation-settings: 'FILL' 1;">star</span><span
-                class="font-label-md text-label-md text-on-surface font-bold">4.6</span><span
-                class="font-label-sm text-label-sm text-on-surface-variant">(85)</span></div>
-            <div
-              class="absolute bottom-2 left-3 flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
-              <span class="material-symbols-outlined text-[15px] text-secondary">distance</span><span class="">4.1 km de
-                distancia</span></div>
+            <div class="absolute top-3 left-3 flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md">
+              <span class="w-2 h-2 rounded-full bg-primary"></span>
+              <span class="font-label-sm text-label-sm text-primary font-bold">Turnos libres tarde y noche</span></div>
+            <div class="absolute top-3 right-3 flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-lowest/85 backdrop-blur-md">
+              <span class="material-symbols-outlined text-[14px] text-tertiary-fixed-dim"style="font-variation-settings: 'FILL' 1;">star</span>
+              <span class="font-label-md text-label-md text-on-surface font-bold">4.6</span>
+              <span class="font-label-sm text-label-sm text-on-surface-variant">(85)</span></div>
+            <div class="absolute bottom-2 left-3 flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+              <span class="material-symbols-outlined text-[15px] text-secondary">distance</span>
+              <span class="">4.1 km de distancia</span></div>
           </div>
           <div class="p-space-md flex flex-col gap-3">
             <div class="flex items-start justify-between gap-2">
-              <div>
-                <h3
-                  class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">
-                  Streetball &amp; Futsal Park Norte</h3>
-                <p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Media cancha 3x3 FIBA + Pista rápida
+                <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors" Streetball &amp; Futsal Park Norte> </h3>
+                <p> class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Media cancha 3x3 FIBA + Pista rápida
                   exterior Futsal</p>
               </div>
-              <div class="text-right shrink-0"><span
-                  class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wider">Tarifa</span><span
-                  class="font-headline-sm text-headline-sm text-primary font-bold">16€<span
-                    class="text-body-sm text-on-surface-variant font-normal">/h</span></span></div>
+              <div class="text-right shrink-0">
+                <span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wider">Tarifa</span>
+                <span class="font-headline-sm text-headline-sm text-primary font-bold">16€
+                  <span class="text-body-sm text-on-surface-variant font-normal">/h</span></span></div>
             </div>
-            <div class="flex flex-wrap gap-1.5"><span
-                class="px-2.5 py-0.5 rounded-full bg-surface-container-high font-label-sm text-label-sm text-on-surface">Básquet
-                3x3</span><span
-                class="px-2.5 py-0.5 rounded-full bg-surface-container-high font-label-sm text-label-sm text-on-surface">Futsal
-                Exterior</span><span
-                class="px-2.5 py-0.5 rounded-full bg-surface-container-high font-label-sm text-label-sm text-on-surface">Fácil
-                Parking</span></div>
-            <div class="flex items-center gap-2 pt-1"><button
-                class="flex-1 h-12 rounded-full bg-primary text-on-primary font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 shadow-[0_0_16px_rgba(111,255,154,0.35)] active:scale-95 transition-all"><span
-                  class="material-symbols-outlined text-[20px]">calendar_month</span><span class="">Ver
-                  Disponibilidad</span></button><button aria-label="Guardar favorito"
-                class="w-12 h-12 rounded-full bg-surface-container-high text-secondary hover:text-primary flex items-center justify-center active:scale-95 transition-all"><span
-                  class="material-symbols-outlined text-[20px]">bookmark_border</span></button></div>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2.5 py-0.5 rounded-full bg-surface-container-high font-label-sm text-label-sm text-on-surface">Básquet 3x3</span>
+              <span class="px-2.5 py-0.5 rounded-full bg-surface-container-high font-label-sm text-label-sm text-on-surface">Futsal Exterior</span>
+              <span class="px-2.5 py-0.5 rounded-full bg-surface-container-high font-label-sm text-label-sm text-on-surface">Fácil Parking</span></div>
+            <div class="flex items-center gap-2 pt-1">
+              <button class="flex-1 h-12 rounded-full bg-primary text-on-primary font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 shadow-[0_0_16px_rgba(111,255,154,0.35)] active:scale-95 transition-all">
+                <span class="material-symbols-outlined text-[20px]">calendar_month</span>
+                <span class="">Ver Disponibilidad</span></button>
+                <button aria-label="Guardar favorito"class="w-12 h-12 rounded-full bg-surface-container-high text-secondary hover:text-primary flex items-center justify-center active:scale-95 transition-all">
+                  <span class="material-symbols-outlined text-[20px]">bookmark_border</span></button></div>
           </div>
         </article>
       </div>
@@ -358,25 +319,20 @@
               <span class="material-symbols-outlined text-primary text-[20px]">verified</span>
               <h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Servicios Incluidos</h3>
             </div>
-            <span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Estándar
-              SPORTMACH</span>
+            <span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Estándar SPORTMACH</span>
           </div>
-          <p class="font-body-sm text-body-sm text-on-surface-variant">
-            Todas las reservas gestionadas a través de nuestra red deportiva garantizan equipamiento premium y
-            comodidades de primer nivel.
+          <p class="font-body-sm text-body-sm text-on-surface-variant"todas las reservas gestionadas a través de nuestra red deportiva garantizan equipamiento premium y comodidades de primer nivel.>
           </p>
           <div class="grid grid-cols-3 gap-2.5 pt-1">
             <!-- Amenity 1 -->
-            <div
-              class="bg-surface-container-high p-3 rounded-xl flex flex-col items-center text-center gap-1.5 shadow-sm">
-              <div class="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center text-primary"><span
-                  class="material-symbols-outlined text-[20px]">sports_basketball</span></div><span
-                class="font-label-sm text-label-sm text-on-surface font-bold">Balones Oficiales</span><span
-                class="font-body-sm text-[10px] leading-tight text-on-surface-variant">Molten/Nike &amp; Petos</span>
+            <div class="bg-surface-container-high p-3 rounded-xl flex flex-col items-center text-center gap-1.5 shadow-sm">
+              <div class="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                <span class="material-symbols-outlined text-[20px]">sports_basketball</span></div>
+                <span class="font-label-sm text-label-sm text-on-surface font-bold">Balones Oficiales</span>
+                <span class="font-body-sm text-[10px] leading-tight text-on-surface-variant">Molten/Nike &amp; Petos</span>
             </div>
             <!-- Amenity 2 -->
-            <div
-              class="bg-surface-container-high p-3 rounded-xl flex flex-col items-center text-center gap-1.5 shadow-sm">
+            <div class="bg-surface-container-high p-3 rounded-xl flex flex-col items-center text-center gap-1.5 shadow-sm">
               <div class="w-9 h-9 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
                 <span class="material-symbols-outlined text-[20px]">shower</span>
               </div>
@@ -384,8 +340,7 @@
               <span class="font-body-sm text-[10px] leading-tight text-on-surface-variant">Taquillas y duchas</span>
             </div>
             <!-- Amenity 3 -->
-            <div
-              class="bg-surface-container-high p-3 rounded-xl flex flex-col items-center text-center gap-1.5 shadow-sm">
+            <div class="bg-surface-container-high p-3 rounded-xl flex flex-col items-center text-center gap-1.5 shadow-sm">
               <div class="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                 <span class="material-symbols-outlined text-[20px]">local_parking</span>
               </div>
@@ -437,12 +392,9 @@
       });
     </script>
   </main>
-  <nav
-    class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-low/85 backdrop-blur-xl shadow-[0_-4px_24px_rgba(0,0,0,0.5)]"
-    data-active-classes="text-primary font-bold drop-shadow-[0_0_8px_rgba(111,255,154,0.45)]">
-    <div class="flex justify-around items-center h-16 px-space-xs"><a
-        class="flex flex-col items-center justify-center gap-0.5 min-w-[64px] h-14 text-on-surface-variant hover:text-on-surface transition-colors active:scale-95"
-        data-path="deporte-explorar" href="#"><span
+  <nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-low/85 backdrop-blur-xl shadow-[0_-4px_24px_rgba(0,0,0,0.5)]"data-active-classes="text-primary font-bold drop-shadow-[0_0_8px_rgba(111,255,154,0.45)]">
+    <div class="flex justify-around items-center h-16 px-space-xs">
+      <a class="flex flex-col items-center justify-center gap-0.5 min-w-[64px] h-14 text-on-surface-variant hover:text-on-surface transition-colors active:scale-95"data-path="deporte-explorar" href="#"><span
           class="material-symbols-outlined text-[24px]">local_fire_department</span><span
           class="font-label-sm text-label-sm">Explorar</span></a><a
         class="flex flex-col items-center justify-center gap-0.5 min-w-[64px] h-14 text-on-surface-variant hover:text-on-surface transition-colors active:scale-95"
